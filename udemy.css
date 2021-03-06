@@ -4,6 +4,9 @@ body{
     font-weight: 300;
     font-size: 14px;
     display: block;
+    margin-top: 0%;
+    margin-bottom: 40px;
+
 }
 .nav{
     display: flex;
@@ -11,7 +14,8 @@ body{
     align-items: center;
     color: #3c3b37;
     white-space: nowrap;
-    margin-bottom: 5px;
+    background-color: white;
+    padding-bottom: 5px;
     width: 100%;
     
 }
@@ -38,10 +42,7 @@ input[type=search]{
     background-color:#eeeeee;
     
 }
-
-[placeholder]{
     
-}
 input[type=search]:focus{
     outline: none;
 }
@@ -91,12 +92,118 @@ input[type=search]:focus{
     align-items: center;
     padding-left: 140px;
     padding-right: 140px;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    box-shadow: 0 2px 3px -2px gray;
+}
+
+.container{
+    margin-top: 1px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 401px;
+    background: url(background_image.jpg);  
+    display: flex;
+    justify-content: start;
+}
+
+
+.quote{
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 60px;
+    border-width: 480px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 24px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+}
+
+.quote h1{
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+.quote p{
+    line-height: 2px;
+    font-size: 19px;
+}
+
+.class_list{
+    margin-top: 80px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 80px;
+   
+    
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.class_list img{
+    width: 150px;
+    height: 120px;;
+}
+
+.class_list h1{
+    font-size: 36px;
+   
+}
+.class_list h2{
+    font-size: 24px;
+}
+
+.course{
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+/* #course_1{
+
+}
+#course_2{
+
+}
+#course_3{
+
+}
+#course_4{
+
+}
+#course_5{
+}
+     */
+
+footer{
+   
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 
 
- 
+ul li{
+    list-style-type: none;
+    line-height: 30px;
+    margin-right: 80px;
+} 
 
- 
+.end img{
+    margin-left: 130px;
+}
 
 
