@@ -135,7 +135,7 @@ input[type=search]:focus{
     margin-left: 140px;
     margin-right: 140px;
     margin-bottom: 80px;
-   
+
     
 }
 
@@ -143,6 +143,7 @@ input[type=search]:focus{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: relative;
 }
 
 .class_list img{
@@ -168,22 +169,132 @@ input[type=search]:focus{
     
 }
 
-/* #course_1{
 
+.course_hidden{
+    text-align: left;
+    display: none;
+   
+
+}
+
+.course_hidden ul {
+    list-style-position: outside;
+    padding-inline-start: 0px;
+}
+
+.course_hidden ul li:before {
+    content: '✓                                                  ';
+}
+
+.addCart{
+    color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: none;
+    padding: 16px;
+    background-color: #ec5252;
+    margin-right: 20px;
+    width: 70%;
+}
+.addCart:focus{
+    outline: none;
+}
+.addCart:hover{
+    background-color: red;
+}
+
+.heart{
+    background-color: white;
+    color: #0f7c90;
+    border: none;
+    border-color: none;
+    padding: 4px;
+    font-size: large;
+}
+.heart:focus{
+    outline: none;
+    color:#ec5252;
+}
+.heart:hover{
+    color: red;
+}
+
+#course_1{
+    width: 300px;
+    height:auto;
+    padding: 20px;
+    background: #fbfbf8;
+    border: 1px solid #be5a0e;
+    border-radius: 5px;
+    position: absolute;
+    top: -240px;
+    left: 120px;
 }
 #course_2{
-
+    width: 300px;
+    height:auto;
+    padding: 20px;
+    background: #fbfbf8;
+    border: 1px solid #be5a0e;
+    border-radius: 5px;
+    position: absolute;
+    top: -240px;
+    left: 350px; 
 }
 #course_3{
-
+    width: 300px;
+    height:auto;
+    padding: 20px;
+    background: #fbfbf8;
+    border: 1px solid #be5a0e;
+    border-radius: 5px;
+    position: absolute;
+    top: -240px;
+    right: 220px; 
 }
 #course_4{
-
+    width: 300px;
+    height:auto;
+    padding: 20px;
+    background: #fbfbf8;
+    border: 1px solid #be5a0e;
+    border-radius: 5px;
+    position: absolute;
+    top: -240px;
+    right: 0px; 
 }
 #course_5{
+    width: 300px;
+    height:auto;
+    padding: 20px;
+    background: #fbfbf8;
+    border: 1px solid #be5a0e;
+    border-radius: 5px;
+    position: absolute;
+    top: -240px;
+    right: -180px;
 }
-     */
 
+#card_1:hover + #course_1 {
+    display: block;
+} 
+
+#card_2:hover + #course_2 {
+    display: block;
+} 
+
+#card_3:hover + #course_3 {
+    display: block;
+} 
+
+#card_4:hover + #course_4 {
+    display: block;
+} 
+
+#card_5:hover + #course_5 {
+    
+    display: block;   
+} 
 footer{
    
     margin-left: 100px;
